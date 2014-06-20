@@ -3,7 +3,7 @@ Worldcup for iOS
 
 A quick Swift demo, using [http://worldcup.sfg.io/](http://worldcup.sfg.io/) World Cup API.
 
-### Screenshop
+### Screenshot
 ![Alt Screenshot](/screenshot/screen.png)
 
 ### Credits
