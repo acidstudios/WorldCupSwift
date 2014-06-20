@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18739C4B1954258C00AC7D80 /* MatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18739C4A1954258C00AC7D80 /* MatchModel.swift */; };
+		18739C4D1954267800AC7D80 /* ACDTomorrowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18739C4C1954267800AC7D80 /* ACDTomorrowTableViewController.swift */; };
+		18739C4F19542EA800AC7D80 /* ACDTodayGamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18739C4E19542EA800AC7D80 /* ACDTodayGamesTableViewController.swift */; };
+		18739C51195431FF00AC7D80 /* ACDCountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18739C50195431FF00AC7D80 /* ACDCountryTableViewController.swift */; };
+		18739C531954388500AC7D80 /* GameEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18739C521954388500AC7D80 /* GameEventModel.swift */; };
+		18739C5519543CBD00AC7D80 /* ACDMatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18739C5419543CBD00AC7D80 /* ACDMatchDetailViewController.swift */; };
+		18B1FF5F195373080064AC2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FF5E195373080064AC2D /* AppDelegate.swift */; };
+		18B1FF66195373080064AC2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B1FF64195373080064AC2D /* Main.storyboard */; };
+		18B1FF68195373080064AC2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B1FF67195373080064AC2D /* Images.xcassets */; };
+		18B1FF74195373090064AC2D /* WorldCupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FF73195373090064AC2D /* WorldCupTests.swift */; };
+		18B1FF7E195373C90064AC2D /* ACDGroupResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FF7D195373C90064AC2D /* ACDGroupResultsTableViewController.swift */; };
+		18B1FF811953745F0064AC2D /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B1FF801953745F0064AC2D /* CountryModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18B1FF6E195373090064AC2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18B1FF51195373080064AC2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18B1FF58195373080064AC2D;
+			remoteInfo = WorldCup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18739C4A1954258C00AC7D80 /* MatchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchModel.swift; path = Classes/Model/MatchModel.swift; sourceTree = "<group>"; };
+		18739C4C1954267800AC7D80 /* ACDTomorrowTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACDTomorrowTableViewController.swift; path = Classes/TomorrowMatches/ACDTomorrowTableViewController.swift; sourceTree = "<group>"; };
+		18739C4E19542EA800AC7D80 /* ACDTodayGamesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACDTodayGamesTableViewController.swift; path = Classes/TodayMatches/ACDTodayGamesTableViewController.swift; sourceTree = "<group>"; };
+		18739C50195431FF00AC7D80 /* ACDCountryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACDCountryTableViewController.swift; path = Classes/CountryMatches/ACDCountryTableViewController.swift; sourceTree = "<group>"; };
+		18739C521954388500AC7D80 /* GameEventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameEventModel.swift; path = Classes/Model/GameEventModel.swift; sourceTree = "<group>"; };
+		18739C5419543CBD00AC7D80 /* ACDMatchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACDMatchDetailViewController.swift; path = Classes/MatchDetail/ACDMatchDetailViewController.swift; sourceTree = "<group>"; };
+		18B1FF59195373080064AC2D /* WorldCup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldCup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B1FF5D195373080064AC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B1FF5E195373080064AC2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18B1FF65195373080064AC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18B1FF67195373080064AC2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18B1FF6D195373090064AC2D /* WorldCupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldCupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B1FF72195373090064AC2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B1FF73195373090064AC2D /* WorldCupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTests.swift; sourceTree = "<group>"; };
+		18B1FF7D195373C90064AC2D /* ACDGroupResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ACDGroupResultsTableViewController.swift; path = Classes/GroupResults/ACDGroupResultsTableViewController.swift; sourceTree = "<group>"; };
+		18B1FF801953745F0064AC2D /* CountryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryModel.swift; path = Classes/Model/CountryModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18B1FF56195373080064AC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1FF6A195373090064AC2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18B1FF50195373080064AC2D = {
+			isa = PBXGroup;
+			children = (
+				18B1FF5B195373080064AC2D /* WorldCup */,
+				18B1FF70195373090064AC2D /* WorldCupTests */,
+				18B1FF5A195373080064AC2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18B1FF5A195373080064AC2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FF59195373080064AC2D /* WorldCup.app */,
+				18B1FF6D195373090064AC2D /* WorldCupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18B1FF5B195373080064AC2D /* WorldCup */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FF7F195374240064AC2D /* Model */,
+				18B1FF5E195373080064AC2D /* AppDelegate.swift */,
+				18B1FF64195373080064AC2D /* Main.storyboard */,
+				18B1FF67195373080064AC2D /* Images.xcassets */,
+				18B1FF5C195373080064AC2D /* Supporting Files */,
+				18B1FF7D195373C90064AC2D /* ACDGroupResultsTableViewController.swift */,
+				18739C4C1954267800AC7D80 /* ACDTomorrowTableViewController.swift */,
+				18739C4E19542EA800AC7D80 /* ACDTodayGamesTableViewController.swift */,
+				18739C50195431FF00AC7D80 /* ACDCountryTableViewController.swift */,
+				18739C5419543CBD00AC7D80 /* ACDMatchDetailViewController.swift */,
+			);
+			path = WorldCup;
+			sourceTree = "<group>";
+		};
+		18B1FF5C195373080064AC2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FF5D195373080064AC2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B1FF70195373090064AC2D /* WorldCupTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FF73195373090064AC2D /* WorldCupTests.swift */,
+				18B1FF71195373090064AC2D /* Supporting Files */,
+			);
+			path = WorldCupTests;
+			sourceTree = "<group>";
+		};
+		18B1FF71195373090064AC2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FF72195373090064AC2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B1FF7F195374240064AC2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18B1FF801953745F0064AC2D /* CountryModel.swift */,
+				18739C4A1954258C00AC7D80 /* MatchModel.swift */,
+				18739C521954388500AC7D80 /* GameEventModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18B1FF58195373080064AC2D /* WorldCup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B1FF77195373090064AC2D /* Build configuration list for PBXNativeTarget "WorldCup" */;
+			buildPhases = (
+				18B1FF55195373080064AC2D /* Sources */,
+				18B1FF56195373080064AC2D /* Frameworks */,
+				18B1FF57195373080064AC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldCup;
+			productName = WorldCup;
+			productReference = 18B1FF59195373080064AC2D /* WorldCup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18B1FF6C195373090064AC2D /* WorldCupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B1FF7A195373090064AC2D /* Build configuration list for PBXNativeTarget "WorldCupTests" */;
+			buildPhases = (
+				18B1FF69195373090064AC2D /* Sources */,
+				18B1FF6A195373090064AC2D /* Frameworks */,
+				18B1FF6B195373090064AC2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B1FF6F195373090064AC2D /* PBXTargetDependency */,
+			);
+			name = WorldCupTests;
+			productName = WorldCupTests;
+			productReference = 18B1FF6D195373090064AC2D /* WorldCupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18B1FF51195373080064AC2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Acid Studios";
+				TargetAttributes = {
+					18B1FF58195373080064AC2D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					18B1FF6C195373090064AC2D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 18B1FF58195373080064AC2D;
+					};
+				};
+			};
+			buildConfigurationList = 18B1FF54195373080064AC2D /* Build configuration list for PBXProject "WorldCup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18B1FF50195373080064AC2D;
+			productRefGroup = 18B1FF5A195373080064AC2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18B1FF58195373080064AC2D /* WorldCup */,
+				18B1FF6C195373090064AC2D /* WorldCupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18B1FF57195373080064AC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1FF66195373080064AC2D /* Main.storyboard in Resources */,
+				18B1FF68195373080064AC2D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1FF6B195373090064AC2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B1FF55195373080064AC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18739C4B1954258C00AC7D80 /* MatchModel.swift in Sources */,
+				18B1FF7E195373C90064AC2D /* ACDGroupResultsTableViewController.swift in Sources */,
+				18739C4F19542EA800AC7D80 /* ACDTodayGamesTableViewController.swift in Sources */,
+				18739C5519543CBD00AC7D80 /* ACDMatchDetailViewController.swift in Sources */,
+				18B1FF5F195373080064AC2D /* AppDelegate.swift in Sources */,
+				18739C531954388500AC7D80 /* GameEventModel.swift in Sources */,
+				18B1FF811953745F0064AC2D /* CountryModel.swift in Sources */,
+				18739C51195431FF00AC7D80 /* ACDCountryTableViewController.swift in Sources */,
+				18739C4D1954267800AC7D80 /* ACDTomorrowTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18B1FF69195373090064AC2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B1FF74195373090064AC2D /* WorldCupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18B1FF6F195373090064AC2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18B1FF58195373080064AC2D /* WorldCup */;
+			targetProxy = 18B1FF6E195373090064AC2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18B1FF64195373080064AC2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18B1FF65195373080064AC2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18B1FF75195373090064AC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18B1FF76195373090064AC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B1FF78195373090064AC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WorldCup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18B1FF79195373090064AC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = WorldCup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18B1FF7B195373090064AC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorldCup.app/WorldCup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorldCupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		18B1FF7C195373090064AC2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorldCup.app/WorldCup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WorldCupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18B1FF54195373080064AC2D /* Build configuration list for PBXProject "WorldCup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1FF75195373090064AC2D /* Debug */,
+				18B1FF76195373090064AC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B1FF77195373090064AC2D /* Build configuration list for PBXNativeTarget "WorldCup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1FF78195373090064AC2D /* Debug */,
+				18B1FF79195373090064AC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B1FF7A195373090064AC2D /* Build configuration list for PBXNativeTarget "WorldCupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B1FF7B195373090064AC2D /* Debug */,
+				18B1FF7C195373090064AC2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18B1FF51195373080064AC2D /* Project object */;
+}
